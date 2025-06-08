@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Teste UTM-FI</title>
 <script
   src="https://cdn.utmify.com.br/scripts/utms/latest.js"
@@ -9,10 +9,19 @@
   data-utmify-prevent-subids
   async
   defer
-></script>
+></script>    <script>
+      window.pixelId = "6845566ce4fe8b3ea2a340e8";
+      var a = document.createElement("script");
+      a.setAttribute("async", "");
+      a.setAttribute("defer", "");
+      a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+      document.head.appendChild(a);
+    </script>
   </head>
+
   <body>
-    <h1>Simulação de Página com UTM</h1>
-    <p>Se você chegou aqui com parâmetros UTM, a UTM-FI deve ter salvo seu click_id.</p>
+    <h1>Simulação de Página com UTM-FI</h1>
+    <p>Essa página captura parâmetros UTM e gera click_id via UTM-FI.</p>
+    <p>Acesse com UTMs para testar.</p>
   </body>
 </html>
